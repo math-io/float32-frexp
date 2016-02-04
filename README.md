@@ -32,16 +32,19 @@ var out = frexp( toFloat32( 4 ) );
 The first element of the returned `array` is the normalized fraction and the second is the exponent. The normalized fraction and exponent satisfy the relation `x = frac * 2**exp`.
 
 ``` javascript
+var toFloat32 = require( 'float64-to-float32' );
 var pow = require( 'math-power' );
 
-var x = toFloat32( 4 );
-var out = frexp( x );
+var x1 = toFloat32( 4 );
+var out = frexp( x1 );
 // returns [ 0.5, 3 ]
 
 var frac = out[ 0 ];
 var exp = out[ 1 ];
 
-var bool = ( x === frac * pow(2,exp) );
+var x2 = frac * pow(2,exp);
+
+var bool = ( x1 === x2 );
 // returns true
 ```
 
