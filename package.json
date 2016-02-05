@@ -51,10 +51,10 @@
   "dependencies": {
     "const-ninf-float32": "^1.0.0",
     "const-pinf-float32": "^1.0.0",
-    "math-float32-exponent": "git+https://github.com/math-io/float32-exponent.git",
-    "math-float32-from-word": "git+https://github.com/math-io/float32-from-word.git",
-    "math-float32-normalize": "git+https://github.com/math-io/float32-normalize.git",
-    "math-float32-to-word": "git+https://github.com/math-io/float32-to-word.git"
+    "math-float32-exponent": "^1.0.0",
+    "math-float32-from-word": "^1.0.0",
+    "math-float32-normalize": "^1.0.0",
+    "math-float32-to-word": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "12.x.x",
