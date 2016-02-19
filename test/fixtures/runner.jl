@@ -10,9 +10,9 @@ z = Array( Any, length(x) )
 for i in eachindex(x)
 	# Mimic implicit type promotion in JavaScript where we need to cast a Float64 to a Float32 and then back to Float64 when writing out:
 	f32 = convert( Float32, x[i] )
-    o = frexp( f32 )
-    y[i] = [ convert( Float64, o[1] ), o[2] ]
-    z[i] = convert( Float64, f32 )
+	o = frexp( f32 )
+	y[i] = [ convert( Float64, o[1] ), o[2] ]
+	z[i] = convert( Float64, f32 )
 end
 
 data = Dict([
@@ -33,9 +33,9 @@ z = Array( Any, length(x) )
 for i in eachindex(x)
 	# Mimic implicit type promotion in JavaScript where we need to cast a Float64 to a Float32 and then back to Float64 when writing out:
 	f32 = convert( Float32, x[i] )
-    o = frexp( f32 )
-    y[i] = [ convert( Float64, o[1] ), o[2] ]
-    z[i] = convert( Float64, f32 )
+	o = frexp( f32 )
+	y[i] = [ convert( Float64, o[1] ), o[2] ]
+	z[i] = convert( Float64, f32 )
 end
 
 data = Dict([
@@ -56,9 +56,9 @@ z = Array( Any, length(x) )
 for i in eachindex(x)
 	# Mimic implicit type promotion in JavaScript where we need to cast a Float64 to a Float32 and then back to Float64 when writing out:
 	f32 = convert( Float32, x[i] )
-    o = frexp( f32 )
-    y[i] = [ convert( Float64, o[1] ), o[2] ]
-    z[i] = convert( Float64, f32 )
+	o = frexp( f32 )
+	y[i] = [ convert( Float64, o[1] ), o[2] ]
+	z[i] = convert( Float64, f32 )
 end
 
 data = Dict([
@@ -79,9 +79,9 @@ z = Array( Any, length(x) )
 for i in eachindex(x)
 	# Mimic implicit type promotion in JavaScript where we need to cast a Float64 to a Float32 and then back to Float64 when writing out:
 	f32 = convert( Float32, x[i] )
-    o = frexp( f32 )
-    y[i] = [ convert( Float64, o[1] ), o[2] ]
-    z[i] = convert( Float64, f32 )
+	o = frexp( f32 )
+	y[i] = [ convert( Float64, o[1] ), o[2] ]
+	z[i] = convert( Float64, f32 )
 end
 
 data = Dict([
