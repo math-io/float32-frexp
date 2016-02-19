@@ -1,6 +1,6 @@
 {
   "name": "math-float32-frexp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Splits a single-precision floating-point number into a normalized fraction and an integer power of two.",
   "author": {
     "name": "Athan Reines",
